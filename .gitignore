@@ -1,17 +1,22 @@
 # Python
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 
-# Virtual environments
+# Virtual environment
 .venv/
 venv/
 
 # Jupyter
 .ipynb_checkpoints/
 
-# Environment variables
-.env
+# ML artifacts (optional)
+model.pkl
 
-# OS files
-Thumbs.db
+# OS
 .DS_Store
+Thumbs.db
+
+# Logs
+*.log
